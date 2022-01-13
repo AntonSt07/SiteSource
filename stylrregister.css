@@ -1,0 +1,63 @@
+/*.logintitle{
+    font-size: 30px;
+    text-align: center;
+}*/
+*{
+    padding: 0;
+    margin: 0;
+}
+.regmenu{
+    position: relative;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #46707d;
+}
+.reg-blank{
+    border-radius: 30px;
+    position: relative;
+    background-color: #ffffff;
+    width: 380px;
+    height: 480px;
+    margin: 6% auto;
+    padding: 5px;
+    
+}
+.regmenu .reg-blank h1{
+    text-align: center;
+    font-size: 60px;
+}
+.regmenu .reg-blank .input-group{
+    margin-left: 50px;
+    top: 150px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+    
+}
+.input-field{
+    
+    font-size: 18px;
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit-btn{
+    margin-left: 80px;
+    font-size: 20px;
+    background-color: #46707d;
+    border-radius: 30px;
+    padding: 5px;
+    width: 120px;
+    display: block;
+    margin: auto;
+    outline: none;
+    color: #ffff;
+}
